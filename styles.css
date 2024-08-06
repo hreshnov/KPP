@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /*background-color: lightgrey;*/
+    background-color: ghostwhite;
+}
+
+article {
+    text-align: center;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 15px;
+
+}
+
+.header-nav {
+    font-size: 12px;
+    font-family: "Source Sans 3", sans-serif;
+    color: #16A085;
+    font-weight: 900;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.top-img {
+    width: 940px;
+    height: 490px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    filter: brightness(50%);
+}
+
+h1 {
+    text-align: center;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    word-spacing: 15px;
+}
+
+p {
+    text-align: center;
+    font-size: 13px;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 500;
+}
+
+.get-started-btn {
+    background-color: #16A085;
+    border: none;
+    font-family: "Source Sans 3", sans-serif;
+    color: white;
+    border-radius: 3px;
+    height: 30px;
+    width: 120px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.footer-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin-right: 550px;
+}
+
+.footer-ul li {
+    margin: 0 10px;
+    position: relative;
+}
+
+.footer-ul li::after {
+    content: "|";
+    position: absolute;
+    right: -15px;
+    color: #00B7A8;
+}
+
+.footer-ul li:last-child::after {
+    content: "";
+}
+
+.footer-ul a {
+    text-decoration: none;
+    color: black;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: bold;
+}
+
+.footer-p {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    position: relative;
+    bottom: 35px;
+    left: 280px;
+}
+
+footer {
+    height: 10px;
+}
