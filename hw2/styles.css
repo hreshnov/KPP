@@ -1,0 +1,185 @@
+body {
+    font-family: "Source Sans 3", sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+header {
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    position: absolute;
+    width: 1280px;
+    height: 69px;
+    top: 1100px;
+    background-color: #B4B7BA;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 980px;
+    margin-top: 13px;
+    margin-bottom: 30px;
+    font-size: 80px;
+    color: #4BCAFF;
+    text-decoration: none;
+}
+
+.logo .ra {
+    font-size: 80px;
+    color: black;
+    text-decoration: none;
+}
+
+.header-div-nav {
+    background-color: #35444F;
+    height: 50px;
+    width: 1280px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.nav-bar-sections {
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    position: relative;
+    height: 50px;
+    margin: 0 50px;
+    text-decoration: none;
+    transition: background-color 0.5s ease, border-left-width 0.5s ease, border-right-width 0.5s ease,
+    border-right-color 0.5s ease, border-left-color 0.5s ease;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+
+.nav-bar-sections:hover {
+    height: 50px;
+    background-color: #222F3A;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-left-color: white;
+    border-right-color: white;
+    transition: background-color 0.5s ease, border-left-width 0.5s ease, border-right-width 0.5s ease,
+    border-right-color 0.5s ease, border-left-color 0.5s ease;
+}
+
+
+.nav-bar {
+    color: #616E78;
+    display: flex;
+    margin: 20px 80px 20px 30px;
+    font-size: 27px;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    transition: background-color 0.5s ease, margin-left 0.5s ease;
+}
+
+
+.nav-bar:hover {
+    background-color: #DBDBDB;
+    margin-left: 60px;
+    font-weight: bold;
+
+
+}
+
+.navigation {
+    border: 1px solid black;
+    margin-right: 910px;
+    width: 370px;
+    height: 399px;
+    margin-top: 50px;
+ }
+
+.ramda-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.ramda-logo:hover {
+    transform: scale(1.2);
+}
+
+.logo-border {
+    position: absolute;
+    top: 476px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 100px;
+    width: 670px;
+    left: 1166px;
+}
+
+.main-text {
+    position: absolute;
+    top: 750px;
+    left: 1166px;
+    transform: translate(-50%, -50%);
+    width: 670px;
+    font-size: 18px;
+}
+
+.main-text-lorem {
+    position: absolute;
+    top: 950px;
+    left: 1166px;
+    transform: translate(-50%, -50%);
+    width: 670px;
+    font-size: 18px;
+}
+
+.footer-a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 28px;
+    color: black;
+    text-decoration: none;
+}
+
+.footer-a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+
+.footer-p {
+    left: 80px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin: 0 100px;
+    font-size: 27px;
+    color: black;
+
+}
