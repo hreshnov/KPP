@@ -1,0 +1,28 @@
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    width: 200px;
+  }
+  
+  input:focus {
+    border-color: green;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .valid-price {
+    color: green;
+    border: 1px solid black;
+    border-radius: 3px;
+  }
+  
+  .remove-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

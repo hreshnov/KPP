@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>LAB11</title>
+	<style>
+		.btn-wrapper {
+			height: 60vh;
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+		}
+		.btn {
+			border: none;
+			border-radius: 20px;
+			min-width: 120px;
+			padding: 7px;
+			color: #fff;
+			font-size: 14px;
+			background-color: #33333a;
+			cursor: pointer;
+			transition: background-color 0.3s;
+		}
+		.btn:focus {
+			outline: none;
+		}
+		.btn.active {
+			background-color: blue;
+		}
+	</style>
+</head>
+<body>
+	<div class="btn-wrapper">
+		<button class="btn" id="Enter">Enter</button>
+		<button class="btn" id="S">S</button>
+		<button class="btn" id="E">E</button>
+		<button class="btn" id="O">O</button>
+		<button class="btn" id="N">N</button>
+		<button class="btn" id="L">L</button>
+		<button class="btn" id="Z">Z</button>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

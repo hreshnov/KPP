@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LAB10</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+  <form id="password-form">
+    <div class="password">
+      <input type="password" placeholder="Password" id="password1">
+      <img src="eye-closed.png" onclick="togglePassword('password1', this)" class="pass-icon">
+    </div>
+    <div class="password">
+      <input type="password" placeholder="Confirm Password" id="password2">
+      <img src="eye-closed.png" onclick="togglePassword('password2', this)" class="pass-icon">
+    </div>
+    <button type="button" onclick="comparePasswords()">Сравнить</button>
+    <p id="message" style="color: red; display: none;">Нужно ввести одинаковые значения</p>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>LAB12</title>
+    <style>
+      .image-to-show {
+        width: 300px;
+        height: 300px;
+      }
+
+      .images-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      #timer {
+        font-size: 24px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="images-wrapper">
+      <img src="1.jpg" alt="image of game" class="image-to-show" />
+      <img src="2.jpg" alt="image of game" class="image-to-show" />
+      <img src="3.JPG" alt="image of game" class="image-to-show" />
+      <img src="4.jpeg" alt="image of game" class="image-to-show" />
+      <div id="timer">Оставшееся время: 10 секунд</div>
+      <button id="stop-button">Прекратить</button>
+      <button id="resume-button" disabled>Возобновить показ</button>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
