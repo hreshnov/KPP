@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw20</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Оценка срока выполнения проекта</h1>
+
+        <label for="teamSpeed">Введите скорость работы команды (по одному значению на разработчика, через запятую):</label>
+        <input type="text" id="teamSpeed" placeholder="1, 2, 3, ...">
+
+        <label for="backlog">Введите список задач (стори поинты для каждой задачи, через запятую):</label>
+        <input type="text" id="backlog" placeholder="5, 8, 3, ...">
+
+        <label for="deadline">Введите дату дедлайна:</label>
+        <input type="date" id="deadline">
+
+        <button onclick="checkProjectDeadline()">Проверить</button>
+
+        <h2>Результат:</h2>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

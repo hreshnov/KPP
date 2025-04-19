@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW21</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Фильтрация коллекции объектов</h1>
+        
+        <label for="keywords">Введите ключевые слова (через пробел):</label>
+        <input type="text" id="keywords" placeholder="en_US Toyota">
+        
+        <label for="filterType">Найти все ключевые слова?</label>
+        <select id="filterType">
+            <option value="true">Да</option>
+            <option value="false">Нет</option>
+        </select>
+
+        <label for="fields">Введите поля для поиска (через запятую):</label>
+        <input type="text" id="fields" placeholder="name, description, contentType.name">
+
+        <button onclick="applyFilter()">Применить фильтр</button>
+
+        <h2>Результат:</h2>
+        <pre id="result"></pre>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

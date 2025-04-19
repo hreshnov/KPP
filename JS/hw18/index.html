@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW18</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Табель студента</h1>
+
+        <form id="student-form">
+            <label for="name">Имя студента:</label>
+            <input type="text" id="name" placeholder="Введите имя студента" required>
+            
+            <label for="lastName">Фамилия студента:</label>
+            <input type="text" id="lastName" placeholder="Введите фамилию студента" required>
+            
+            <h2>Добавить предмет и оценку</h2>
+            <div id="subjects">
+                <div class="subject-input">
+                    <label for="subject">Название предмета:</label>
+                    <input type="text" class="subject" placeholder="Название предмета" required>
+                    
+                    <label for="grade">Оценка:</label>
+                    <input type="number" class="grade" placeholder="Оценка" min="1" max="5" required>
+                </div>
+            </div>
+
+            <button type="button" onclick="addSubject()">Добавить еще предмет</button>
+            <button type="submit">Завершить</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
